@@ -824,9 +824,15 @@ div.post-content .table-wrapper {
     font-size: 1.08rem;
   }
   > ol, > ul {
-    > li {
-      margin-top: 0.5rem;
+    li+li {
+      margin-top: 0.3rem;
     }
+  }
+  dl, ol, ul {
+    padding-left: 2rem;
+  }
+  li > p {
+    margin: 1rem 0 0.8rem;
   }
 }
 
